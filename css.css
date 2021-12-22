@@ -1,0 +1,50 @@
+div  {
+	border-style: solid;
+	border-width: medium;
+	border-color: black; 
+  }
+  h1{
+	 margin-left: 50%;
+  }
+.flexBox{
+	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.flexBox p{
+padding-top: 10%;
+}
+
+.flexBox div{
+	background: rgb(76, 77, 76);
+	flex: 27%;
+	padding: 20px;
+	margin: 10px;
+	height: 300px;
+	
+}
+#product{
+	float: right;
+	margin:-22px;
+	flex: 10%;
+	height: 5px;
+	
+}
+div .p1{
+	color: black;
+	background: rgb(148, 89, 99);
+}
+div .p2{
+	color: rgb(255, 255, 255);
+	background: red;
+}
+div .p3{
+	color: rgb(255, 255, 255);
+	background: #d6d445;
+}
+@media screen and (max-width: 530px) {
+  .flexBox {
+  	flex-direction: column;
+  }
+}
